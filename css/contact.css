@@ -1,0 +1,28 @@
+#contact{
+    background-color: silver;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+.contact-form{
+    padding: 15px;
+}
+
+.form-control{
+    border-radius: 0px;
+    border: none;
+}
+
+::placeholder{
+    color: red;
+}
+
+.follow{
+    padding: 15px;
+    margin: 15px;
+    background-color: #fff;
+}
+
+
+

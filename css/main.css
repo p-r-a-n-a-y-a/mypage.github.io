@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:0;
+}
+  /* -------slider--------- */
+
+#slider{
+    width: 100%;
+}
+
+.carousel-caption{
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    padding-bottom: 50%;
+}
+
+.carousel-caption h5{
+    color: #fff;
+    font-size: 3rem;
+    font-family: serif;
+}
+
+.carousel-inner img{
+    background-size: cover;
+    background: fixed;
+    border: solid red;
+    width: 100%;
+    height: 560px;
+
+}

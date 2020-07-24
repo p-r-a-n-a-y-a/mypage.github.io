@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta name="author" content="pranaya raj neupane">
+        <meta name="keywords" content="html, css, web, internet">
+        <title>About us</title>
+        <link rel="stylesheet" href="css/navigation.css">
+        <link rel="stylesheet" href="css/aboutstyle.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+                    <!-- NVIGATION -->
+                    <section id="nav-bar">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <a class="navbar-brand" href="#"><img src="image/logo.png" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                              <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="home.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link-a" href="about.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="secvice.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="team.html">Our Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="e-book.html">E-book</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="download.html">Download</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                  </li>
+                              </ul>
+                            </div>
+                          </nav>
+                    </section>
+        <!-- ------------about--------- -->
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2>About Us</h2>
+                        <div class="about-content">
+                            <p>This page has a unique feel, thanks to the deconstructed action
+                            figures(pranaya neupane) representing the best designed page.
+                            We work together to design, create and produce work that we are proud for 
+                            the things we belive in. We are avilable in a wide range of creative discipliness
+                            for a variety of jobs, project etc. <span id="dots">.........</span>
+                             <span id="more"> <br> We are here to help you to advance in your programming knowladge.    
+                               we provide different programming books for learning. you can buy any books you liked.
+                               the course/books you can get from our page are : <br>
+                                CSS <br>
+                                HTML 5 <br>
+                                Photo shop <br>
+                                Web design <br>
+                                Python programming <br> 
+                                Graphics designing <br>
+                                javascript   </span></p>
+                                    <button onclick="myFunction()" id="myBtn">Read More</button>
+                               <script>
+                                   function myFunction() {
+                                     var dots = document.getElementById("dots");
+                                     var moreText = document.getElementById("more");
+                                     var btnText = document.getElementById("myBtn");
+                                   
+                                     if (dots.style.display === "none") {
+                                       dots.style.display = "inline";
+                                       btnText.innerHTML = "Read more"; 
+                                       moreText.style.display = "none";
+                                     } else {
+                                       dots.style.display = "none";
+                                       btnText.innerHTML = "Read less"; 
+                                       moreText.style.display = "inline";
+                                     }
+                                   }
+                               </script>
+                               <br><br>
+                        </div>
+                    </div>
+                    <div class="col-md-6 skills-bar">
+                        <h3>Our progress on following feilds are:</h3><br>
+                        <p>Adobe Photoshop</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%;">80%</div>
+                        </div>
+                        <p>Web Designing</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%;">90%</div>
+                        </div>
+                        <p>Python Programming</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 70%;">70%</div>
+                        </div>
+                        <p>Graphics Designing</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 50%;">55%</div>
+                        </div>
+                        <p>javascript</p>
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 50%;">50%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+                        <!-- ------------footer---------- -->
+                        <section id="footer">
+                          <div class="container">
+                            <p>Personal Project <br><b>Pranaya Neupane</b><br>@Copyright 2020-2040 </p>
+                            
+                          </div>
+                        </section>
+    </body>
+</html>
